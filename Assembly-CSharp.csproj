@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1d448fe7-3784-e80b-eb9e-5fa9ed2e1278}</ProjectGuid>
+    <ProjectGuid>{a24fabf3-56bf-3472-302a-13d9a3de73e5}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -45,7 +45,9 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.52f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\New Folder\NewBehaviourScript2.cs" />
     <Compile Include="Assets\New Folder\NewBehaviourScript.cs" />
+    <Compile Include="Assets\New Folder\NewBehaviourScript3.cs" />
     <Compile Include="Assets\New Folder\NewBehaviourScript1.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.52f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -297,10 +299,10 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.52f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\PackageCache\com.unity.testtools.codecoverage@1.2.6\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.52f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -684,73 +686,73 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.52f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>C:\UnityWorkspace\GithubTest\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <HintPath>C:\Users\pc\Documents\GitHub\UnityGithub\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
